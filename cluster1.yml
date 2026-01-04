@@ -1,11 +1,7 @@
 kind: Cluster
-apiVersion:  kind.x-k8s.io/v1alpha4
+apiVersion: kind.x-k8s.io/v1alpha4
 nodes:
   - role: control-plane
     image: kindest/node:v1.30.10
   - role: worker
     image: kindest/node:v1.30.10
-  
-# para ejecutar el cluster se debe colocar el siguinte comando
-# kind create cluster --config cluster1.yml
-
