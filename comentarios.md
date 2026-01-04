@@ -32,10 +32,11 @@ para aplicar un archivo yml, se dene utilizar los siguinte
 
 kubectl apply -f <nombre_del_archivo.yml>
 
-Comandos para depurar Pods
+Comandos para hacer troobleshuting con kubernets
 
 kubectl get pods
 kubectl logs <nombre_objeto>
 kubectl describe <objeto> <nombre_objeto>
 kubectl exec pods/nginx -- comando
 kubectl exec -it <nombre_pod> -- <bash>
+kubectl port-forward <nombre_pod> <puertohost:puertopod>
