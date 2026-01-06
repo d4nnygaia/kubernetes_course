@@ -40,3 +40,10 @@ kubectl describe <objeto> <nombre_objeto>
 kubectl exec pods/nginx -- comando
 kubectl exec -it <nombre_pod> -- <bash>
 kubectl port-forward <nombre_pod> <puertohost:puertopod>
+
+Volumnes
+
+Se conocen también como drivers y sirven para compartir informacion entre pods.
+Existen varios tipos de volumenes o drivers.
+
+emptyDir permite generar un volumen a nivel pod, pero este volumen va a ser montado dentro del nodo.
