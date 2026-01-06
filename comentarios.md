@@ -47,3 +47,12 @@ Se conocen también como drivers y sirven para compartir informacion entre pods.
 Existen varios tipos de volumenes o drivers.
 
 emptyDir permite generar un volumen a nivel pod, pero este volumen va a ser montado dentro del nodo.
+
+Labels y Selectores
+
+Son pares de key/value que puede asociar a los objetos, que puede ser pods, servicios, jobs, entre otros. El objetivo es organizar y seleccionar obejtos de manera flexible, el usso de los labels no afecta el funcionamiento del oibjeto.
+Los labels se los coloca dentro de la directiva de metada.
+
+Se puede utilizar para poder filtrar objetos con un label especifico, con el siguiente comando:
+
+- kubectl get <objeto> -l key=value
