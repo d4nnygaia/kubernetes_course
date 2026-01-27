@@ -1,7 +1,7 @@
 # Kind
 para poder crear el cluster con kind se utiliza el archivo de configuracion y se utiliza el siguinte comando
 
-´kind create cluster --config <archivo_config.yml>´
+```kind create cluster --config <archivo_config.yml>```
 
 Kubernetes para poder configurar un pod tenemos dos tipos de configuración
 
