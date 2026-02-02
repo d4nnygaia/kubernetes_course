@@ -40,12 +40,12 @@ Los archivos YAML o YML tienen 4 directivas
 
 # Comandos para hacer troobleshuting con kubernets
 
-`kubectl get pods`
-`kubectl logs <nombre_objeto>`
-`kubectl describe <objeto> <nombre_objeto>`
-`kubectl exec pods/nginx -- comando`
-`kubectl exec -it <nombre_pod> -- <bash>`
-`kubectl port-forward <nombre_pod> <puertohost:puertopod>`
+- `kubectl get pods`
+- `kubectl logs <nombre_objeto>`
+- `kubectl describe <objeto> <nombre_objeto>`
+- `kubectl exec pods/nginx -- comando`
+- `kubectl exec -it <nombre_pod> -- <bash>`
+- `kubectl port-forward <nombre_pod> <puertohost:puertopod>`
 
 # Volumnes
 
