@@ -57,6 +57,11 @@ Se puede utilizar para poder filtrar objetos con un label especifico, con el sig
 
 - kubectl get <objeto> -l key=value
 
+JOBS
+son otro tipo de objetos.
+sirven para ejecutar tareas que deben completarse y no mantenerse corriendo continuamente. Las tareas tiene un incio y un fin.
+pra poder ejecutar scripts de mantenimientos, backup de bdd, cualquier tipo de acciones que se deban realizar en las aplicaciones o en el cluster.
+
 # Networking
 
 sirve para dar salida a nuesta aplicación que se encuentra corriendo en los pods.
