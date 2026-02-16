@@ -56,3 +56,18 @@ Los labels se los coloca dentro de la directiva de metada.
 Se puede utilizar para poder filtrar objetos con un label especifico, con el siguiente comando:
 
 - kubectl get <objeto> -l key=value
+
+# Networking
+
+sirve para dar salida a nuesta aplicación que se encuentra corriendo en los pods.
+
+para hacer esto se encesita un service.
+
+hay y tipos de servicio que son
+
+- clusterip
+- nodeport
+- LoadBalancer
+- Ingress
+
+## ClusterIP
