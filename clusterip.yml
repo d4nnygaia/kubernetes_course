@@ -7,7 +7,7 @@ spec:
     - name: frontend
       image: alpine/curl
       tty: true
-      command: ["sh", "c", "while true; si sleep 30; done"]
+      command: ["sh", "-c", "while true; do sleep 30; done"]
 
 ---
 apiVersion: v1
